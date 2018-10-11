@@ -1,8 +1,8 @@
 
 # Matrix Functions library
 ## Overview
-
-This is a sample code for creating a high-performance, portable linear algebra library in C++, so far, two main functions are created for this library, which are matrix multiplication and matrix transpose. A shared library (MatrixfuncShareLib.so) will be created, and can be used as an external library for other projects involved matrix calculation. Unit tests are also made using [google test](https://github.com/google/googletest) to test the matrix multiplication and transpose module. Finally, two executables are built by linking to this library and they will provide a console user interface for user to type their own input matrix and do the calculations.
+This is a sample code for creating a high-performance, portable linear algebra library in C++, so far, two main functions are created for this library, which are matrix multiplication and matrix transpose. A shared library (MatrixfuncShareLib.so) will be created, and can be used as an external library for other projects involved matrix calculation. Unit tests are also made using [google test](https://github.com/google/googletest) to test the matrix multiplication and transpose module. Finally, two executables are built by linking to this library and they will provide a console user interface for user to type their own input matrix and do the calculations. Please refer to the link:
+https://github.com/zzjkf2009/MatrixFuncsLib.git
 
 ## Prerequisite
 Cmake, a cross-platform Makefile generator, which will automatically generates the Makefiles for the project. If don't have it, do:
