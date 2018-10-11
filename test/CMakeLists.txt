@@ -1,11 +1,13 @@
 set(GTEST_SHUFFLE 1)
 
 add_executable(
-    cpp-test
+    libtest
     main.cpp
-    test.cpp
+    Transpose_Test.cpp
+    MatrixProduct_Test.cpp
 )
 
-target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/include 
-                                           ${CMAKE_SOURCE_DIR}/include)
-target_link_libraries(cpp-test PUBLIC gtest)
+target_include_directories(libtest PUBLIC ../vendor/googletest/googletest/include
+                                         ${CMAKE_SOURCE_DIR}/include)
+
+target_link_libraries(libtest gtest MatrixfuncShareLib )
